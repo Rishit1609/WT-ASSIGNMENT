@@ -10,7 +10,7 @@ body {
 
 /* navbar customization */
 .navbar {
-    background-color: #56c4ff;
+    background-color: #363062;
     padding: 1rem 1rem 2rem;
 }
 
@@ -37,13 +37,56 @@ body {
     width: 32px;
 }
 
-.Laptop {
-    margin-right: 0;
+/* main content */
+
+.laptop{
+    position: absolute;
+    right: 15rem;
+    top: 26rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
-.image-laptop {
-    position: absolute;
-    right: 2rem;
-    top: 25rem;
-    height: 10rem;
+table 
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
 }
+
+th, td 
+{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #827397;
+}
+.image-laptop {
+    height: 10rem;
+    z-index: 0;
+}
+
+.container-main{
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.content{
+    color: #827397;
+    padding: 3rem 5rem 0.5rem 3rem;
+}
+
+.heading{
+    color: #d1577b;
+    padding-bottom: 2rem;
+}
+
+/* mobile view */
+/* @media (min-width: 975px){
+    .laptop{
+        position: absolute;;
+        top: 2rem;
+    }
+
+    .container-main{
+        padding-top: 2rem;
+    }
+} */
