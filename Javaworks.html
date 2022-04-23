@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WT PROJECT</title>  
-    <!--Fonts-->
-    <script src="https://kit.fontawesome.com/2bbad3e724.js" crossorigin="anonymous"></script>
-  
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WT PROJECT</title>
+  <!--Fonts-->
+  <script src="https://kit.fontawesome.com/2bbad3e724.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
@@ -23,8 +23,10 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&family=Ubuntu:wght@300;500&display=swap"
+    rel="stylesheet">
+
   <!--CSS-->
   <link rel="stylesheet" href="styles.css">
 
@@ -39,29 +41,144 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> 
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="Javaworks.html" target="_blank">JDK</a>
+            <a class="nav-link" href="Javaworks.html">Working of JAVA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Javaworks.html" target="_blank">JVM</a>
+            <a class="nav-link" href="OOP.html">OOP Concept</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Javaworks.html" target="_blank">JRE</a>
+            <a class="nav-link" href="Program.html">Program in JAVA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="OOP.html" target="_blank">OOP</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Program.html" target="_blank">Program</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html" target="_blank">About JAVA</a>
+            <a class="nav-link" href="About.html">About JAVA</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- end of navbar section-->
-</div>
+  </div>
+
+  <div class="container-main content">
+    <div>
+      <h1 class="heading" >How Does JAVA Work?</h1>
+    </div>
+    <div class="row">
+      <div class="jdk-card col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="heading">JDK</h3>
+            <p>
+              The Java Development Kit (JDK) is a cross-platformed software
+              development environment that offers a collection of tools and libraries
+              necessary for developing Java-based software applications and applets.
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#jdk"><button type="button" class="btn btn-block">Read More</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="jvm-card col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="heading">JVM</h3>
+            <p>
+              JVM (Java Virtual Machine) is an abstract machine. It is a specification
+              that provides runtime environment in which java bytecode can be executed.
+              JVMs are available for many hardware and software platforms (i.e. JVM is
+              platform dependent).
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="#jvm"><button type="button" class="btn btn-block">Read More</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="jre-card col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="heading">JRE</h3>
+            <p>The Java Runtime Environment, or JRE, is a software layer that runs on top
+              of a computer's operating system software and provides the class libraries
+              and other resources that a specific Java program needs to run.</p>
+          </div>
+          <div class="card-body">
+            <a href="#jre"><button type="button" class="btn btn-block">Read More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <a name="jdk"></a>
+      <div class="jdk-div">
+        <h2 class="heading">Java Development Kit</h2>
+        <p>
+          The Java Development Kit (JDK) is a cross-platformed software development environment
+          that offers a collection of tools and libraries necessary for developing Java-based
+          software applications and applets. It is a core package used in Java, along with the
+          JVM (Java Virtual Machine) and the JRE (Java Runtime Environment).
+        </p>
+
+        <p>
+          Beginners often get
+          confused with JRE and JDK, if you are only interested in running Java programs on your
+          machine then you can easily do it using Java Runtime Environment. However, if you
+          would like to develop a Java-based software application then along with JRE you may
+          need some additional necessary tools, which is called JDK.
+        </p>
+
+      </div>
+
+      <a name="jvm"></a>
+      <div class="jvm-div">
+        <h2 class="heading">Java Virtual Machine</h2>
+        <p>
+          JVM(Java Virtual Machine) acts as a run-time engine to run Java applications.
+          JVM is the one that actually calls the main method present in a java code. JVM is a
+          part of JRE(Java Runtime Environment).
+        </p>
+
+        <p>
+          Java applications are called WORA (Write Once Run Anywhere). This means a
+          programmer can develop Java code on one system and can expect it to run on
+          any other Java-enabled system without any adjustment. This is all possible
+          because of JVM.
+        </p>
+
+        <p>
+          When we compile a .java file, .class files(contains byte-code) with the same
+          class names present in .java file are generated by the Java compiler. This .class
+          file goes into various steps when we run it. These steps together describe the whole JVM.
+        </p>
+
+      </div>
+
+      <a name="jre"></a>
+      <div class="jre-div">
+        <h2 class="heading">Java Runtime Environment</h2>
+        <p>
+          Java Runtime Environment (JRE) is an open-access software distribution that has a
+          Java class library, specific tools, and a separate JVM. JRE is one of the interrelated
+          components in the Java Development Kit (JDK). It is the most common environment
+          available on devices for running Java programs.
+        </p>
+
+        <p>
+          Java source code is compiled and
+          converted to Java bytecode. If you want to run this bytecode on any platform,
+          you need JRE. The JRE loads classes check memory access and get system resources.
+          JRE acts as a software layer on top of the operating system.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+</body>

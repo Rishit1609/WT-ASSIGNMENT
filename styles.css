@@ -26,7 +26,7 @@ body {
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: 5rem;
 }
 
@@ -40,7 +40,7 @@ body {
 
 /* main content */
 
-.laptop {
+.indexgirl {
     position: absolute;
     right: 15rem;
     top: 26rem;
@@ -61,10 +61,6 @@ td {
     border: 1px solid #827397;
 }
 
-.image-laptop {
-    height: 10rem;
-}
-
 .container-main {
     padding: 2rem 2rem 2rem 3rem;
 }
@@ -76,8 +72,15 @@ td {
 
 .heading {
     color: #d1577b;
-    padding-bottom: 2rem;
+    padding: 1rem 0 2.5rem 0;
 }
+
+
+.heading-small{
+    color: #827397;
+    padding: 1rem 0 1rem 0;
+}
+
 .girl-laptop {
     position: absolute;
     right: 1rem;
@@ -85,9 +88,18 @@ td {
     padding: 2rem 2rem 2rem 2rem;
 }
 
-.program{
+.program {
     padding: 2rem 2rem 2rem 3rem;
 }
+
+.code{
+    margin: 0 0 0 1rem;
+}
+
+.code-div{
+    margin: 2rem 0 2rem 0;
+}
+
 /* mobile view */
 /* @media (min-width: 975px){
     .laptop{
@@ -99,3 +111,43 @@ td {
         padding-top: 2rem;
     }
 } */
+
+/* working page cards */
+.work-card {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+/* button styling */
+.btn {
+    background: #827397;
+    background-image: -webkit-linear-gradient(top, #827397, #363062);
+    background-image: -moz-linear-gradient(top, #827397, #363062);
+    background-image: -ms-linear-gradient(top, #827397, #363062);
+    background-image: -o-linear-gradient(top, #827397, #363062);
+    background-image: linear-gradient(to bottom, #827397, #363062);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #d47793;
+    background-image: -webkit-linear-gradient(top, #d47793, #db4673);
+    background-image: -moz-linear-gradient(top, #d47793, #db4673);
+    background-image: -ms-linear-gradient(top, #d47793, #db4673);
+    background-image: -o-linear-gradient(top, #d47793, #db4673);
+    background-image: linear-gradient(to bottom, #d47793, #db4673);
+    text-decoration: none;
+}
+
+/* java illustration img about page */
+.java illus{
+    padding-top: 7rem;
+}
+
+/* features table in about page */
+.features{
+    padding: 0;
+}
