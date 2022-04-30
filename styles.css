@@ -151,3 +151,14 @@ td {
 .features{
     padding: 0;
 }
+
+footer{
+    background-color: #363062;
+    margin-top: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #c4b9d4;
+    line-height: 1.7;
+    font-size: 1.25rem;
+}
