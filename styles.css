@@ -162,3 +162,16 @@ footer{
     line-height: 1.7;
     font-size: 1.25rem;
 }
+.grp
+{
+ position: absolute;
+ right: 4rem;
+ top:60rem;
+}
+/* 
+.prog-img
+{
+ position: absolute;
+ right: 4rem;
+ top:60rem;
+} */
